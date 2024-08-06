@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>1082343360000</ElapsedGameTime>
+  <ElapsedGameTime>1082571200000</ElapsedGameTime>
   <SessionName>Starcore MT AI Thunderdome</SessionName>
   <SpectatorPosition>
-    <Position x="-7441.618946912994" y="657.634551188561" z="-1615.1555384146725" />
-    <Forward x="-0" y="-0" z="-1" />
-    <Up x="0" y="1" z="0" />
+    <Position x="-7447.369512988219" y="517.52924719538362" z="-1746.8272492340434" />
+    <Forward x="-0.577350259" y="-0.577350259" z="-0.577350259" />
+    <Up x="-0.4082483" y="0.8164966" z="-0.4082483" />
     <Orientation>
-      <X>0</X>
-      <Y>0</Y>
-      <Z>0</Z>
-      <W>1</W>
+      <X>-0.279848129</X>
+      <Y>0.3647052</Y>
+      <Z>0.115916893</Z>
+      <W>0.880476236</W>
     </Orientation>
   </SpectatorPosition>
   <SpectatorSpeed x="1.6834116" y="1" />
@@ -21,7 +21,7 @@
   <ControlledObject>142040132107931631</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-08-03T05:30:08.8065129-05:00</LastSaveTime>
+  <LastSaveTime>2024-08-05T20:41:33.8529834-05:00</LastSaveTime>
   <SpectatorDistance>15.5773048</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -856,6 +856,41 @@ SiegePowerPercentage=0.9
     <dictionary />
   </PlayersDeadInCryopods>
   <Mods>
+    <ModItem FriendlyName="Block Culling">
+      <Name>3237260730.sbm</Name>
+      <PublishedFileId>3237260730</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Cast Spectator - StarCore">
+      <Name>3299682578.sbm</Name>
+      <PublishedFileId>3299682578</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SCEntityCover">
+      <Name>3007088668.sbm</Name>
+      <PublishedFileId>3007088668</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCore Skybox - ThinFrigidNitrogen">
+      <Name>3299459609.sbm</Name>
+      <PublishedFileId>3299459609</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="AdvancedBlockSwapper">
+      <Name>3237212491.sbm</Name>
+      <PublishedFileId>3237212491</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCore Gamemodes">
+      <Name>3258473302.sbm</Name>
+      <PublishedFileId>3258473302</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Fletcher Armaments Starcore">
+      <Name>2949963748.sbm</Name>
+      <PublishedFileId>2949963748</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="WeaponCore-StarCore">
       <Name>3149625043.sbm</Name>
       <PublishedFileId>3149625043</PublishedFileId>
@@ -876,8 +911,9 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2824324850</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem>
-      <Name>TIOStarcore</Name>
+    <ModItem FriendlyName="TIOStarcore">
+      <Name>3019366671.sbm</Name>
+      <PublishedFileId>3019366671</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Text HUD API">
@@ -885,9 +921,9 @@ SiegePowerPercentage=0.9
       <PublishedFileId>758597413</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Systems Highlight">
-      <Name>3037494862.sbm</Name>
-      <PublishedFileId>3037494862</PublishedFileId>
+    <ModItem FriendlyName="SCPracticeAI">
+      <Name>3024311955.sbm</Name>
+      <PublishedFileId>3024311955</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCoreLinkUtility">
@@ -895,22 +931,14 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2927550954</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Starcore-One-Shot">
-      <Name>Starcore-One-Shot</Name>
+    <ModItem FriendlyName="Starcore-One-Shot-2024">
+      <Name>3149645583.sbm</Name>
+      <PublishedFileId>3149645583</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore Tournament Weapon Category">
       <Name>2785856511.sbm</Name>
       <PublishedFileId>2785856511</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem>
-      <Name>StarCore SUGMA Gamemodes</Name>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="StarCore Skybox - ThinFrigidNitrogen">
-      <Name>3299459609.sbm</Name>
-      <PublishedFileId>3299459609</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
@@ -936,6 +964,11 @@ SiegePowerPercentage=0.9
     <ModItem FriendlyName="Starcore Paperdoll">
       <Name>2846569122.sbm</Name>
       <PublishedFileId>2846569122</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Modular Assemblies">
+      <Name>3130656054.sbm</Name>
+      <PublishedFileId>3130656054</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore MA weapons natebranch Supar Sekrit AutoMcDognut Bootleg">
@@ -988,19 +1021,9 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2414738008</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="SETacView Demo - Replay System">
-      <Name>2975063364.sbm</Name>
-      <PublishedFileId>2975063364</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="SCThrusterFX">
       <Name>3033050686.sbm</Name>
       <PublishedFileId>3033050686</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SCPracticeAI">
-      <Name>3024311955.sbm</Name>
-      <PublishedFileId>3024311955</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCMobilityBlocks">
@@ -1008,14 +1031,14 @@ SiegePowerPercentage=0.9
       <PublishedFileId>3020885446</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="SCEntityCover">
-      <Name>3007088668.sbm</Name>
-      <PublishedFileId>3007088668</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="SCDefenseBlocks">
       <Name>3023988614.sbm</Name>
       <PublishedFileId>3023988614</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SETacView Demo - Replay System">
+      <Name>2975063364.sbm</Name>
+      <PublishedFileId>2975063364</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCCleanModCategories">
@@ -1088,11 +1111,6 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2824332148</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Modular Assemblies">
-      <Name>3130656054.sbm</Name>
-      <PublishedFileId>3130656054</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Military Industrial Complex">
       <Name>2902380862.sbm</Name>
       <PublishedFileId>2902380862</PublishedFileId>
@@ -1133,11 +1151,6 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2950011596</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Fletcher Armaments Starcore">
-      <Name>2949963748.sbm</Name>
-      <PublishedFileId>2949963748</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Disposable Worklights">
       <Name>3031257615.sbm</Name>
       <PublishedFileId>3031257615</PublishedFileId>
@@ -1168,10 +1181,6 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2759080043</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Cast Spectator - StarCore">
-      <Name>Cast Spectator - StarCore</Name>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
       <Name>806331071.sbm</Name>
       <PublishedFileId>806331071</PublishedFileId>
@@ -1180,10 +1189,6 @@ SiegePowerPercentage=0.9
     <ModItem FriendlyName="Build Info">
       <Name>514062285.sbm</Name>
       <PublishedFileId>514062285</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="BlockCulling">
-      <Name>BlockCulling</Name>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="BaRCore">
@@ -1236,11 +1241,6 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2289675817</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="AdvancedBlockSwapper">
-      <Name>3237212491.sbm</Name>
-      <PublishedFileId>3237212491</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="[SpraysAddon]SyFy-Font">
       <Name>2414545923.sbm</Name>
       <PublishedFileId>2414545923</PublishedFileId>
@@ -1276,8 +1276,12 @@ SiegePowerPercentage=0.9
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Systems Highlight">
+      <Name>3037494862.sbm</Name>
+      <PublishedFileId>3037494862</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
   </Mods>
-  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1288,11 +1292,11 @@ SiegePowerPercentage=0.9
       <Model>Astronaut 5x (Ascended Spessman)</Model>
       <ColorMask x="0.127777785" y="0" z="7.450581E-09" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.0715211-05:00</LastLoginTime>
       <SavedCharacters>
         <long>142040132107931631</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-08-03T05:30:08.8065129-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-08-05T20:41:33.8539832-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>-7180.1989407034152</X>
@@ -1307,7 +1311,7 @@ SiegePowerPercentage=0.9
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.0837142-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1320,7 +1324,7 @@ SiegePowerPercentage=0.9
       <DisplayName>ADM NPC9445</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1333,7 +1337,7 @@ SiegePowerPercentage=0.9
       <DisplayName>OUT NPC1742</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1346,7 +1350,7 @@ SiegePowerPercentage=0.9
       <DisplayName>NEU NPC3649</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1359,7 +1363,7 @@ SiegePowerPercentage=0.9
       <DisplayName>BLU NPC1764</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1372,7 +1376,7 @@ SiegePowerPercentage=0.9
       <DisplayName>RED NPC6284</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:27:59.0277847-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1385,7 +1389,7 @@ SiegePowerPercentage=0.9
       <DisplayName>Pirate</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-03T05:28:15.4977831-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-05T20:41:02.4220201-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:43.2247148-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1438,8 +1442,8 @@ SiegePowerPercentage=0.9
           </Toolbar>
           <EntityCameraData>
             <CameraControllerSettings EntityId="142040132107931631">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>15.577304498717087</Distance>
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>15.577304840087892</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -1609,8 +1613,6 @@ SiegePowerPercentage=0.9
       </item>
     </dictionary>
   </AllPlayersColors>
-  <ChatHistory />
-  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
     <long>144115188075855897</long>
@@ -1788,7 +1790,7 @@ SiegePowerPercentage=0.9
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="-0.881873846" y="-0.0120959915" z="-0.471330345" />
+      <SunDirectionNormalized x="-0.8824097" y="-0.0132706137" z="-0.470294684" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>-2854667419660876016</PlanetId>
@@ -64177,20 +64179,13 @@ SiegePowerPercentage=0.9
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>100633</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>4333</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
       <Definition Type="MyObjectBuilder_CoordinateSystemDefinition" Subtype="CoordinateSystem" />
       <LastCoordSysId>70</LastCoordSysId>
-      <CoordSystems>
-        <CoordSysInfo>
-          <Id>69</Id>
-          <EntityCount>1</EntityCount>
-          <Rotation x="-1.1039092E-06" y="1.14048544E-06" z="-2.54197676E-06" w="1" />
-          <Position x="-7384.1482087125887" y="547.33171706899952" z="-1800.9553892795307" />
-        </CoordSysInfo>
-      </CoordSystems>
+      <CoordSystems />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_BankingSystem">
       <Definition Type="MyObjectBuilder_BankingSystemDefinition" Subtype="BankingSystem" />
@@ -64401,16 +64396,10 @@ SiegePowerPercentage=0.9
   <InGameTime>2081-01-01T07:00:00</InGameTime>
   <CustomSkybox />
   <RequiresDX>11</RequiresDX>
-  <VicinityModelsCache>
-    <string>O:\SteamLibrary\steamapps\workshop\content\244850\2961585236\Models\Cubes\Large\GeneratorSmall.mwm</string>
-  </VicinityModelsCache>
+  <VicinityModelsCache />
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
-    <string>Models\Cubes\Large\Armor\SquarePlate.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache />
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
-  <RemoteAdminSettings>
-    <dictionary />
-  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
