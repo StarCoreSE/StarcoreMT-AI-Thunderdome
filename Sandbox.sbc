@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>1082571200000</ElapsedGameTime>
+  <ElapsedGameTime>1086546240000</ElapsedGameTime>
   <SessionName>Starcore MT AI Thunderdome</SessionName>
   <SpectatorPosition>
-    <Position x="-7447.369512988219" y="517.52924719538362" z="-1746.8272492340434" />
-    <Forward x="-0.577350259" y="-0.577350259" z="-0.577350259" />
-    <Up x="-0.4082483" y="0.8164966" z="-0.4082483" />
+    <Position x="-7447.369512988219" y="517.52924719538589" z="-1746.8272492340461" />
+    <Forward x="-0.5773503" y="-0.577350259" z="-0.577350259" />
+    <Up x="-0.4082483" y="0.8164966" z="-0.408248276" />
     <Orientation>
       <X>-0.279848129</X>
       <Y>0.3647052</Y>
@@ -21,7 +21,7 @@
   <ControlledObject>142040132107931631</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2024-08-05T20:41:33.8529834-05:00</LastSaveTime>
+  <LastSaveTime>2024-08-06T02:23:20.4565314-05:00</LastSaveTime>
   <SpectatorDistance>15.5773048</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
@@ -73,7 +73,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -144,7 +144,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -1289,14 +1289,14 @@ SiegePowerPercentage=0.9
       <IdentityId>144115188075855873</IdentityId>
       <DisplayName>Invalid</DisplayName>
       <CharacterEntityId>142040132107931631</CharacterEntityId>
-      <Model>Astronaut 5x (Ascended Spessman)</Model>
+      <Model>Default_Astronaut</Model>
       <ColorMask x="0.127777785" y="0" z="7.450581E-09" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.0715211-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.8043849-05:00</LastLoginTime>
       <SavedCharacters>
         <long>142040132107931631</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-08-05T20:41:33.8539832-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-08-06T02:23:20.4570314-05:00</LastLogoutTime>
       <RespawnShips />
       <LastDeathPosition>
         <X>-7180.1989407034152</X>
@@ -1311,7 +1311,7 @@ SiegePowerPercentage=0.9
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.0837142-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1324,7 +1324,7 @@ SiegePowerPercentage=0.9
       <DisplayName>ADM NPC9445</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1337,7 +1337,7 @@ SiegePowerPercentage=0.9
       <DisplayName>OUT NPC1742</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1350,7 +1350,7 @@ SiegePowerPercentage=0.9
       <DisplayName>NEU NPC3649</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1363,7 +1363,7 @@ SiegePowerPercentage=0.9
       <DisplayName>BLU NPC1764</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1376,7 +1376,7 @@ SiegePowerPercentage=0.9
       <DisplayName>RED NPC6284</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:40:53.071021-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:19.803885-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:42.4997146-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1389,7 +1389,7 @@ SiegePowerPercentage=0.9
       <DisplayName>Pirate</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-05T20:41:02.4220201-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-06T02:22:22.4218876-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>2023-09-08T05:47:43.2247148-05:00</LastLogoutTime>
       <RespawnShips />
@@ -1442,7 +1442,7 @@ SiegePowerPercentage=0.9
           </Toolbar>
           <EntityCameraData>
             <CameraControllerSettings EntityId="142040132107931631">
-              <IsFirstPerson>false</IsFirstPerson>
+              <IsFirstPerson>true</IsFirstPerson>
               <Distance>15.577304840087892</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
@@ -1790,7 +1790,7 @@ SiegePowerPercentage=0.9
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="-0.8824097" y="-0.0132706137" z="-0.470294684" />
+      <SunDirectionNormalized x="-0.8913777" y="-0.03377723" z="-0.452001125" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>-2854667419660876016</PlanetId>
@@ -64179,7 +64179,7 @@ SiegePowerPercentage=0.9
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>4333</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>58333</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">

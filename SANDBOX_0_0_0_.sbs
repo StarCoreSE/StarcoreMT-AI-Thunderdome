@@ -117,14 +117,14 @@
       <PersistentFlags>CastShadows InScene</PersistentFlags>
       <Name>142040132107931631</Name>
       <PositionAndOrientation>
-        <Position x="-7064.8199090452126" y="550.316112805412" z="-1870.1648803758521" />
-        <Forward x="0.961921751" y="0.008457019" z="0.273194134" />
-        <Up x="-0.0218312014" y="-0.993950546" z="0.107636891" />
+        <Position x="-7033.24417204192" y="551.46055509056464" z="-1857.5739039025225" />
+        <Forward x="0.987661242" y="0.000830834149" z="0.15660277" />
+        <Up x="0.0141459228" y="-0.996371269" z="-0.08392929" />
         <Orientation>
-          <X>0.796805561</X>
-          <Y>-0.0412062965</Y>
-          <Z>-0.601727664</Z>
-          <W>0.0364247933</W>
+          <X>0.759759665</X>
+          <Y>0.0326599777</Y>
+          <Z>-0.648807347</Z>
+          <W>-0.027343668</W>
         </Orientation>
       </PositionAndOrientation>
       <LocalPositionAndOrientation xsi:nil="true" />
@@ -174,7 +174,7 @@
           </ComponentData>
         </Components>
       </ComponentContainer>
-      <CharacterModel>Astronaut 5x (Ascended Spessman)</CharacterModel>
+      <CharacterModel>Default_Astronaut</CharacterModel>
       <Inventory>
         <CanPutItems>true</CanPutItems>
         <Items />
