@@ -2,7 +2,7 @@
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
   <ElapsedGameTime>1082343360000</ElapsedGameTime>
-  <SessionName>Starcore MT</SessionName>
+  <SessionName>Starcore MT AI Thunderdome</SessionName>
   <SpectatorPosition>
     <Position x="-7441.618946912994" y="657.634551188561" z="-1615.1555384146725" />
     <Forward x="-0" y="-0" z="-1" />
