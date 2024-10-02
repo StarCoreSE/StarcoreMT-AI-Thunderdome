@@ -181,7 +181,6 @@
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <NPCGridClaimTimeLimit>120</NPCGridClaimTimeLimit>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>true</EnableSelectivePhysicsUpdates>
@@ -64420,4 +64419,3 @@ SiegePowerPercentage=0.9
     <dictionary />
   </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
-<!-- Saved '2024-10-02T05:42:37.2599100-05:00' with SEToolbox version '1.204.15.1' -->

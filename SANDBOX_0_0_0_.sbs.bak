@@ -20,6 +20,97 @@
   </Environment>
   <VoxelHandVolumeChanged>0</VoxelHandVolumeChanged>
   <SectorObjects>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Planet">
+      <SubtypeName />
+      <EntityId>-2854667419660876016</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <Name>BlackHole-12345d1000--2854667419660876016</Name>
+      <PositionAndOrientation>
+        <Position x="-505.38579285935134" y="-512.39418711765836" z="-509.23019640988423" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <LocalPositionAndOrientation xsi:nil="true" />
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyPlanetEnvironmentComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_PlanetEnvironmentComponent">
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Forward" />
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Backward" />
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Left" />
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Right" />
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Up" />
+              <Provider xsi:type="MyObjectBuilder_ProceduralEnvironmentProvider" Face="Down" />
+              <SectorObstructions />
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <ContentChanged>false</ContentChanged>
+      <BoulderPlanetId xsi:nil="true" />
+      <BoulderSectorId xsi:nil="true" />
+      <BoulderItemId xsi:nil="true" />
+      <CreatedByUser>false</CreatedByUser>
+      <StorageName>BlackHole-12345d1000</StorageName>
+      <Radius>500</Radius>
+      <HasAtmosphere>true</HasAtmosphere>
+      <AtmosphereRadius>875</AtmosphereRadius>
+      <MinimumSurfaceRadius>495</MinimumSurfaceRadius>
+      <MaximumHillRadius>505</MaximumHillRadius>
+      <AtmosphereWavelengths>
+        <X>0.65</X>
+        <Y>0.57</Y>
+        <Z>0.475</Z>
+      </AtmosphereWavelengths>
+      <GravityFalloff>0</GravityFalloff>
+      <MarkAreaEmpty>true</MarkAreaEmpty>
+      <AtmosphereSettings>
+        <RayleighScattering>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>1</Z>
+        </RayleighScattering>
+        <MieScattering>147.671082</MieScattering>
+        <MieColorScattering>
+          <X>22.684</X>
+          <Y>51.284</Y>
+          <Z>73.528</Z>
+        </MieColorScattering>
+        <RayleighHeight>50</RayleighHeight>
+        <RayleighHeightSpace>25</RayleighHeightSpace>
+        <RayleighTransitionModifier>0.1</RayleighTransitionModifier>
+        <MieHeight>200</MieHeight>
+        <MieG>1</MieG>
+        <Intensity>2.495</Intensity>
+        <FogIntensity>0</FogIntensity>
+        <SeaLevelModifier>0.9</SeaLevelModifier>
+        <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+        <Scale>0</Scale>
+        <SunColor>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>1</Z>
+        </SunColor>
+        <SunSpecularColor>
+          <X>1</X>
+          <Y>1</Y>
+          <Z>1</Z>
+        </SunSpecularColor>
+      </AtmosphereSettings>
+      <SurfaceGravity>0</SurfaceGravity>
+      <SpawnsFlora>false</SpawnsFlora>
+      <ShowGPS>false</ShowGPS>
+      <SpherizeWithDistance>true</SpherizeWithDistance>
+      <PlanetGenerator>BlackHole</PlanetGenerator>
+      <Seed>12345</Seed>
+    </MyObjectBuilder_EntityBase>
     <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
       <SubtypeName>Default_Astronaut</SubtypeName>
       <EntityId>142040132107931631</EntityId>
@@ -97,6 +188,7 @@
       </Inventory>
       <Battery>
         <CurrentCapacity>1E-05</CurrentCapacity>
+        <RegenEffects />
       </Battery>
       <LightEnabled>false</LightEnabled>
       <UsingLadder xsi:nil="true" />
@@ -136,4 +228,3 @@
     </MyObjectBuilder_EntityBase>
   </SectorObjects>
 </MyObjectBuilder_Sector>
-<!-- Saved '2024-10-02T05:42:37.2739089-05:00' with SEToolbox version '1.204.15.1' -->
