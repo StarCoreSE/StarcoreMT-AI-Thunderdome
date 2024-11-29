@@ -8,7 +8,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -16,6 +16,7 @@
     <MaxBlocksPerPlayer>0</MaxBlocksPerPlayer>
     <TotalPCU>0</TotalPCU>
     <PiratePCU>50000</PiratePCU>
+    <GlobalEncounterPCU>25000</GlobalEncounterPCU>
     <MaxFactionsCount>0</MaxFactionsCount>
     <BlockLimitsEnabled>NONE</BlockLimitsEnabled>
     <EnableRemoteBlockRemoval>true</EnableRemoteBlockRemoval>
@@ -79,7 +80,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -151,6 +152,24 @@
     <ScrapEnabled>true</ScrapEnabled>
     <BroadcastControllerMaxOfflineTransmitDistance>200</BroadcastControllerMaxOfflineTransmitDistance>
     <TemporaryContainers>true</TemporaryContainers>
+    <GlobalEncounterTimer>15</GlobalEncounterTimer>
+    <GlobalEncounterCap>0</GlobalEncounterCap>
+    <GlobalEncounterEnableRemovalTimer>true</GlobalEncounterEnableRemovalTimer>
+    <GlobalEncounterMinRemovalTimer>90</GlobalEncounterMinRemovalTimer>
+    <GlobalEncounterMaxRemovalTimer>180</GlobalEncounterMaxRemovalTimer>
+    <GlobalEncounterRemovalTimeClock>30</GlobalEncounterRemovalTimeClock>
+    <EncounterDensity>0.35</EncounterDensity>
+    <EncounterGeneratorVersion>6</EncounterGeneratorVersion>
+    <EnablePlanetaryEncounters>false</EnablePlanetaryEncounters>
+    <PlanetaryEncounterTimerMin>15</PlanetaryEncounterTimerMin>
+    <PlanetaryEncounterTimerMax>30</PlanetaryEncounterTimerMax>
+    <PlanetaryEncounterExistingStructuresRange>7000</PlanetaryEncounterExistingStructuresRange>
+    <PlanetaryEncounterAreaLockdownRange>10000</PlanetaryEncounterAreaLockdownRange>
+    <PlanetaryEncounterDesiredSpawnRange>6000</PlanetaryEncounterDesiredSpawnRange>
+    <PlanetaryEncounterPresenceRange>20000</PlanetaryEncounterPresenceRange>
+    <PlanetaryEncounterDespawnTimeout>120</PlanetaryEncounterDespawnTimeout>
+    <LimitBlocksBy>BlockPairName</LimitBlocksBy>
+    <MaxHudChatMessageCount>100</MaxHudChatMessageCount>
   </Settings>
   <Mods>
     <ModItem FriendlyName="WeaponCore-StarCore">
@@ -543,7 +562,7 @@
       <PublishedFileId>2880317963</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6.2">
+    <ModItem FriendlyName="AE NPC Dummies - Interactable NPC Blocks v. 0.6.3">
       <Name>2289675817.sbm</Name>
       <PublishedFileId>2289675817</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -590,5 +609,5 @@
     </ModItem>
   </Mods>
   <SessionName>Starcore MT AI Thunderdome</SessionName>
-  <LastSaveTime>2024-08-06T02:23:20.4565314-05:00</LastSaveTime>
+  <LastSaveTime>2024-11-28T19:33:12.2103754-06:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
